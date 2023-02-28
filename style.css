@@ -18,7 +18,7 @@ body{
 .icon{
     display: flex;
     align-items: center;
-    padding: 2px;
+    padding: 3px;
 }
 .icon >img{
     height: 35px;
