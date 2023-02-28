@@ -7,10 +7,13 @@ body{
 .navbar{
     width: 100%;
     height: 65px;
-    background-color: #343A40;
+    background-color:#343A40;
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.menu{
+    display: none;
 }
 .fixed{
     position: sticky;
@@ -258,17 +261,18 @@ hr{
 
 
 
-@media screen and (max-width:775px){
+@media screen and (max-width:770px){
     nav{
         position: relative;
     }
-    nav box-icon{
+
+    .menu{
         display: block;
         position: absolute;
         top: 18px;
         right: 32px;
     }
-    nav ul{
+    ul{
         display: none;
     }
     .services{
