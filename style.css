@@ -157,6 +157,9 @@ hr{
     border: 1px solid rgba(0,0,0,.125);
     height: 50%;
 }
+.button{
+   margin: 10px;
+}
 .services img{
     width: 100%;
 }
