@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
 }
-.nav{
+.navv{
     width: 100%;
     background-color:#343A40;
     display: flex;
@@ -282,7 +282,7 @@ hr{
         display: none;
         width: 100%;
     }
-    .nav{
+    .navv{
         flex-direction: column;
         align-items: flex-start;
     }
